@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <title>办公室网络布线基础：从光猫到工位的合理结构 - 极速观察</title>
-  <meta name="description" content="小型办公室怎样规划网络？介绍从光猫、路由器、交换机到工位的结构、有线与无线的分配，以及线缆标识与后期维护。">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0" name="viewport"/>
+<title>远程结对调试怎样准备：只读演示、共享终端与会话结束检查</title>
+<meta content="远程结对调试怎样准备：只读演示、共享终端与会话结束检查，包含操作次序、结果判读与适用条件，帮助读者把实际任务和连接问题分开验证。" name="description"/>
+<style>
     :root {
       --bg-base: #0b0e14;
       --bg-card: #141923;
@@ -332,90 +333,90 @@
   </style>
 </head>
 <body>
-
-  <!-- Top Nav -->
-  <header class="aero-nav">
-    <div class="nav-inner">
-      <a href="index.html" class="brand-logo-unit">
-        <svg class="brand-logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M16 82 C 22 42, 50 20, 82 26" stroke="#8b9cb5" stroke-width="2.5" stroke-linecap="round"/>
-          <line x1="82" y1="26" x2="82" y2="52" stroke="#e63946" stroke-width="1.5" stroke-dasharray="3 3"/>
-          <circle cx="82" cy="52" r="3" fill="#e63946"/>
-          <path d="M38 58 C 50 46, 70 48, 78 56 C 68 62, 54 64, 38 58 Z" fill="#e2e8f0"/>
-          <polygon points="38,58 26,52 28,66" fill="#e63946"/>
-          <polygon points="54,50 44,36 58,46" fill="#e63946"/>
-        </svg>
-        <div class="brand-text-col">
-          <div class="brand-title">渔云加速器</div>
-          <div class="brand-subtitle">极速破风·专线加速</div>
-        </div>
-      </a>
-
-      <nav>
-        <ul class="nav-menu-links">
-          <li><a href="index.html#advantages">核心优势</a></li>
-          <li><a href="index.html#streaming">流媒体与AI</a></li>
-          <li><a href="index.html#pricing">套餐价格</a></li>
-          <li><a href="index.html#faq">常见问题</a></li>
-          <li><a href="index.html#reviews">用户评价</a></li>
-          <li><a href="pulse.html" class="active">极速观察</a></li>
-        </ul>
-      </nav>
-
-      <a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" target="_blank" rel="nofollow" class="nav-btn-link">
-        <span>立即登录</span>
-      </a>
-    </div>
-  </header>
-
-  <main class="container">
-    <nav class="breadcrumb">
-      <a href="index.html">首页</a>
-      <span>&gt;</span>
-      <a href="pulse.html">极速观察</a>
-      <span>&gt;</span>
-      <span>办公布线</span>
-    </nav>
-
-    <header class="article-header">
-      <h1 class="article-h1">办公室网络布线基础：从光猫到工位的合理结构</h1>
-      <div class="article-meta-bar">
- <span>发布日期: 2026-11-12</span> <span>栏目: 办公布线</span> <span>作者: 办公网络组</span> <span>阅读耗时: 约5分钟</span>
- </div>
-    </header>
-
-    <article class="article-content">
-<h2>一、整体结构</h2>
-<p>光猫连接路由器，路由器连接核心交换机，再由交换机分出各工位的网线。无线接入点放在需要覆盖的区域。</p>
-<h2>二、有线与无线的分配</h2>
-<ul><li>固定工位：尽量使用网线，更稳定。</li><li>会议室与休息区：无线覆盖。</li><li>打印机与监控：建议有线连接。</li></ul>
-<h2>三、设备放置</h2>
-<p>核心设备放在通风、散热良好并上锁的柜里，配备稳压与 UPS。线缆通过线槽走线，避免与强电并行。</p>
-<h2>四、标识与记录</h2>
-<p>每根网线两端贴上编号，并在表格里记录对应的位置与端口，出问题时能迅速定位。</p>
-<h2>五、预留与扩展</h2>
-<p>多布几根备用线路，交换机预留端口，为未来的增长留出空间。</p>
- <div class="article-footer-note">
-        <span>本文由 渔云加速器·极速观察 独家撰稿发布，保留所有版权。</span>
-        <a href="pulse.html" class="content-link">返回 极速观察 专栏列表 &rarr;</a>
+<!-- Top Nav -->
+<header class="aero-nav">
+<div class="nav-inner">
+<a class="brand-logo-unit" href="index.html">
+<svg class="brand-logo-svg" fill="none" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 82 C 22 42, 50 20, 82 26" stroke="#8b9cb5" stroke-linecap="round" stroke-width="2.5"></path>
+<line stroke="#e63946" stroke-dasharray="3 3" stroke-width="1.5" x1="82" x2="82" y1="26" y2="52"></line>
+<circle cx="82" cy="52" fill="#e63946" r="3"></circle>
+<path d="M38 58 C 50 46, 70 48, 78 56 C 68 62, 54 64, 38 58 Z" fill="#e2e8f0"></path>
+<polygon fill="#e63946" points="38,58 26,52 28,66"></polygon>
+<polygon fill="#e63946" points="54,50 44,36 58,46"></polygon>
+</svg>
+<div class="brand-text-col">
+<div class="brand-title">渔云加速器</div>
+<div class="brand-subtitle">极速破风·专线加速</div>
+</div>
+</a>
+<nav>
+<ul class="nav-menu-links">
+<li><a href="index.html#advantages">核心优势</a></li>
+<li><a href="index.html#streaming">流媒体与AI</a></li>
+<li><a href="index.html#pricing">套餐价格</a></li>
+<li><a href="index.html#faq">常见问题</a></li>
+<li><a href="index.html#reviews">用户评价</a></li>
+<li><a class="active" href="pulse.html">极速观察</a></li>
+</ul>
+</nav>
+<a class="nav-btn-link" href="https://ww012.twilightaff.com/#/?code=A56DH1Af" rel="nofollow" target="_blank">
+<span>立即登录</span>
+</a>
+</div>
+</header>
+<main class="container">
+<nav class="breadcrumb">
+<a href="index.html">首页</a>
+<span>&gt;</span>
+<a href="pulse.html">极速观察</a>
+<span>&gt;</span>
+<span>办公布线</span>
+</nav>
+<header class="article-header">
+<h1 class="article-h1">远程结对调试怎样准备：只读演示、共享终端与会话结束检查</h1>
+<div class="article-meta-bar">
+<span>发布日期: 2026-11-12</span> <span>栏目: 办公布线</span> <span>作者: 办公网络组</span> <span>阅读耗时: 约5分钟</span>
+</div>
+</header>
+<article class="article-content"><div data-swc-article-body="2026-11-16"><h2>共享代码与共享控制权要分开</h2>
+<p>远程结对调试可能只需要看代码，也可能需要共同编辑、查看运行结果或执行命令。不同权限带来的影响不同，不能因为双方都在会议里就默认开放整台电脑。开始前确认项目允许协作的范围、参与者身份与所用工具。网络连接只是传递信息的条件，不能替代仓库授权与对命令副作用的判断。</p>
+<h2>第一步准备最小可复现的问题</h2>
+<p>从真实项目中整理不含秘密的样本、错误输出和复现步骤，说明预期与实际差异。若必须使用私有项目，就按单位规则邀请已授权人员。不要为了让对方更快看懂而共享全部客户数据或生产凭据。问题范围越清楚，所需权限越小，也越容易判断协作是否真正解决了目标。</p>
+<h2>第二步选择足够而不过量的共享方式</h2>
+<p>只需要讲解时可以共享特定窗口或只读代码；需要共同修改时再使用支持协作的工具。确认当前产品仍支持你的平台和版本，不照搬多年前教程。微软当前文档说明Live Share在不同产品中的维护状态存在变化，VS Code相关功能也应核对现行说明后使用，不能假设所有Visual Studio版本行为相同。</p>
+<h2>第三步从只读权限开始验收</h2>
+<p>在支持的协作工具中先选择只读模式，让访客确认能看到目标文件与必要输出。只读也不等于完全没有信息风险，调试变量、终端输出和本地服务可能包含秘密，因此仍需控制范围。需要增加权限时明确说明原因和持续时间，不为了省一次确认而把全部成员永久设为可编辑。</p>
+<h2>第四步明确谁执行命令</h2>
+<p>会前约定由主机操作者执行，或在明确授权后共享可写终端。执行前说明命令目标、预期输出和是否会改变文件或外部系统。只读终端用于观察输出，可写终端则可能在主机权限下执行动作，两者不能混淆。不要用生产部署、数据库写入或通知发送作为连接质量测试。</p>
+<h2>第五步核对共享的本地服务</h2>
+<p>开发服务器即使原本只在本机使用，通过协作工具共享后也可能被访客访问。选择必要端口并检查页面内容，避免暴露管理界面或带真实数据的调试入口。共享URL只发给本次获授权成员，不贴在公开工单。协作完成后停止分享，不能假设关闭一个代码文件就撤销了所有端口访问。</p>
+<h2>第六步让双方看到相同的问题状态</h2>
+<p>主机保存当前修改，说明分支、文件版本和复现条件，再让访客跟随到同一位置。多人同时编辑时，明确谁负责当前变更，避免互相覆盖。语音延迟较高时可以按步骤轮流操作，而不是两边同时点击。网络顺畅也不能防止沟通不清造成的逻辑冲突，协作节奏需要刻意安排。</p>
+<h2>第七步区分画面延迟与程序等待</h2>
+<p>屏幕共享卡住、终端命令仍运行、测试服务等待响应是不同现象。查看主机本地状态，确认程序究竟是否完成，再判断远端显示有没有跟上。访客看到没有变化时，不应马上要求重复执行命令。对于会产生写入的操作，先读取结果，避免一次网络等待变成重复修改或重复提交。</p>
+<h2>连接异常时先保住工作状态</h2>
+<p>正常保存文件和必要日志，确认正在运行的任务，再按工具流程重连。不要为了恢复协作立即重启开发机，可能中断未完成的测试或丢失诊断线索。若工具支持会话重新邀请，核对新的访问范围与成员身份，旧链接是否仍有效也应按产品规则确认，不能只看语音会议里还有同一个名字。</p>
+<h2>外部接入方案要符合项目要求</h2>
+<p>需要比较线路时，可用<a href="https://dajichang.mom/">远程开发协作机场比较</a>整理参与地区、设备和持续会话需求。但项目代码是否允许经过相关服务，应由负责人确认，个人套餐不能代替企业授权。实际网络测试使用公开样本即可，不必把完整仓库交给多个陌生平台来判断哪条线路更快。</p>
+<h2>结束前检查变更与撤销状态</h2>
+<p>共同查看代码差异、运行必要的局部验证，并记录仍未解决的问题。随后结束协作会话、停止共享终端和服务，核对临时授权是否需要收回。提交代码仍沿项目原有评审流程，不因为两个人一起看过就跳过检查。把问题、原因和修复证据留下，下一位维护者无需依靠聊天记忆理解变更。</p>
+<h2>将结对效率落在可重复流程上</h2>
+<p>下一次协作可以复用样本准备、权限选择、执行分工和退出检查四步，只更新工具版本与项目条件。可靠连接让讨论更顺畅，但清楚的权限和状态更能减少误操作。结对调试的成功标准，是双方理解了问题、变更有依据且访问已妥善结束，而不是把远程控制开放得越全面越好。</p></div></article>
+</main>
+<!-- Footer -->
+<footer class="footer-wrap">
+<div class="footer-inner">
+<div class="footer-four-row">
+<a href="sitemap.html" target="_blank">网站地图</a>
+<a href="about.html" target="_blank">关于我们</a>
+<a href="terms.html" target="_blank">服务条款</a>
+<a href="privacy.html" target="_blank">隐私政策</a>
+</div>
+<div class="footer-copy">
+        © 2026 渔云加速器 yuyuncloud.buzz 版权所有 | 飞鱼破风全球专线服务
       </div>
-    </article>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer-wrap">
-    <div class="footer-inner">
-      <div class="footer-four-row">
-        <a href="sitemap.html" target="_blank">网站地图</a>
-        <a href="about.html" target="_blank">关于我们</a>
-        <a href="terms.html" target="_blank">服务条款</a>
-        <a href="privacy.html" target="_blank">隐私政策</a>
-      </div>
-      <div class="footer-copy">
-        &copy; 2026 渔云加速器 yuyuncloud.buzz 版权所有 | 飞鱼破风全球专线服务
-      </div>
-    </div>
-  </footer>
-
+</div>
+</footer>
 </body>
 </html>
